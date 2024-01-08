@@ -1,0 +1,14 @@
+{
+    "name": "Got It Coda Extensions",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_popup": "popup/popup.html",
+      "default_icon": "command.png"
+    },
+    "permissions": ["activeTab", "scripting", "tabs"],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }

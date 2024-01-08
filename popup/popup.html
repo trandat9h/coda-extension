@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Page</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+    <div>
+      <div class="radio-inputs">
+        <label class="radio">
+          <input type="radio" name="radio" checked="">
+          <span class="name" id="tab1">Create Page</span>
+        </label>
+        <label class="radio">
+          <input type="radio" name="radio">
+          <span class="name" id="tab2">Rename Page</span>
+        </label>
+      </div>
+    </div>
+      <div id="content1" >
+        <h1>Create Page</h1>
+        <div class="input-group">
+          <label class="label">Page Name</label>
+          <input autocomplete="off" name="Email" id="name-1" class="input" type="text">
+          <div></div>
+        </div>
+        <div class="input-group" style="margin-top: 20px;">
+          <label class="label">API Key</label>
+          <input autocomplete="off" name="Email" id="APIKey-1" class="input" type="text">
+          <div></div>
+        </div>
+        <br>
+        <button id="create-page" class="custom-button"> Create Page</button>
+      </div>
+      <div id="content2" style="display: none; margin-top: 20px;">
+        <h1>Rename Page</h1>
+        <div class="input-group">
+          <label class="label">Page Name</label>
+          <input autocomplete="off" name="Email" id="name-2" class="input" type="text">
+          <div></div>
+        </div>
+        <div class="input-group" style="margin-top: 20px;">
+          <label class="label">API Key</label>
+          <input autocomplete="off" name="Email" id="APIKey-2" class="input" type="text">
+          <div></div>
+        </div>
+        <br>
+        <button id="rename-page" class="custom-button"> Rename Page</button>
+      </div>
+</body>
+</html>
